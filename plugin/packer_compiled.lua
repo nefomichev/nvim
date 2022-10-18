@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/Users/nikita/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?.lua;/Users/nikita/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?/init.lua;/Users/nikita/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?.lua;/Users/nikita/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/Users/nikita/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/lua/5.1/?.so"
+local package_path_str = "/Users/nefomichev/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?.lua;/Users/nefomichev/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?/init.lua;/Users/nefomichev/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?.lua;/Users/nefomichev/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/Users/nefomichev/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -76,42 +76,42 @@ time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
   ["nvim-lsp-installer"] = {
     loaded = true,
-    path = "/Users/nikita/.local/share/nvim/site/pack/packer/start/nvim-lsp-installer",
+    path = "/Users/nefomichev/.local/share/nvim/site/pack/packer/start/nvim-lsp-installer",
     url = "https://github.com/williamboman/nvim-lsp-installer"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
-    path = "/Users/nikita/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
+    path = "/Users/nefomichev/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
   },
   ["packer.nvim"] = {
     loaded = true,
-    path = "/Users/nikita/.local/share/nvim/site/pack/packer/start/packer.nvim",
+    path = "/Users/nefomichev/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
   ["plenary.nvim"] = {
     loaded = true,
-    path = "/Users/nikita/.local/share/nvim/site/pack/packer/start/plenary.nvim",
+    path = "/Users/nefomichev/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
   ["popup.nvim"] = {
     loaded = true,
-    path = "/Users/nikita/.local/share/nvim/site/pack/packer/start/popup.nvim",
+    path = "/Users/nefomichev/.local/share/nvim/site/pack/packer/start/popup.nvim",
     url = "https://github.com/nvim-lua/popup.nvim"
   },
   ["telescope-fzf-native.nvim"] = {
     loaded = true,
-    path = "/Users/nikita/.local/share/nvim/site/pack/packer/start/telescope-fzf-native.nvim",
+    path = "/Users/nefomichev/.local/share/nvim/site/pack/packer/start/telescope-fzf-native.nvim",
     url = "https://github.com/nvim-telescope/telescope-fzf-native.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,
-    path = "/Users/nikita/.local/share/nvim/site/pack/packer/start/telescope.nvim",
+    path = "/Users/nefomichev/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
   ["tokyonight.nvim"] = {
     loaded = true,
-    path = "/Users/nikita/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
+    path = "/Users/nefomichev/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
     url = "https://github.com/folke/tokyonight.nvim"
   }
 }
