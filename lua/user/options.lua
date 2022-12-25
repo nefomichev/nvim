@@ -6,6 +6,7 @@ local options = {
   fileencoding = "utf-8",                  -- the encoding written to a file
   ignorecase = true,                       -- ignore case in search patterns
   mouse = "a",                             -- allow the mouse to be used in neovim
+
   showmode = false,                        -- we don't need to see things like -- INSERT -- anymore
   showtabline = 2,                         -- always show tabs
   smartcase = true,                        -- smart case
@@ -20,7 +21,7 @@ local options = {
   tabstop = 4,                             -- insert 2 spaces for a tab
   cursorline = true,                       -- highlight the current line
   number = true,
-  wrap = false,                            -- display lines as one long line
+  wrap = true,                            -- display lines as one long line
   scrolloff = 8,                           -- is one of my fav
   sidescrolloff = 8,
 }
@@ -31,3 +32,5 @@ for k, v in pairs(options) do
 end
 
 vim.cmd "set whichwrap+=<,>,[,],h,l"
+
+vim.o.hidden = true
