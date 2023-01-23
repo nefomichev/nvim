@@ -40,9 +40,13 @@ return packer.startup(function(use)
 
   use "nvim-telescope/telescope.nvim" -- Live grep and fast search from vim
   use {'nvim-telescope/telescope-fzf-native.nvim', run = 'make'} 
+  use("nvim-treesitter/nvim-treesitter-textobjects")
+  use("ray-x/cmp-treesitter")
 
   use "neovim/nvim-lspconfig" -- LSP configurator
   use "williamboman/nvim-lsp-installer"
+
+  use "nvim-treesitter/nvim-treesitter"
 
   use 'folke/tokyonight.nvim'
 
@@ -50,6 +54,15 @@ return packer.startup(function(use)
     "iamcco/markdown-preview.nvim",
     run = function() vim.fn["mkdp#util#install"]() end,
        })
+  use("hrsh7th/nvim-cmp") -- The completion plugin
+    use("hrsh7th/cmp-nvim-lsp") -- Lsp completion
+    use("hrsh7th/cmp-nvim-lua") -- Neovim lua runtime API completion
+    use("hrsh7th/cmp-buffer") -- buffer completions
+    use("hrsh7th/cmp-path") -- path completions
+    use("hrsh7th/cmp-cmdline") -- cmdline completions
+    use("L3MON4D3/LuaSnip") --snippet engine
+    use("saadparwaiz1/cmp_luasnip") -- snippet completions
+    use("onsails/lspkind-nvim") -- pictograms for lsp completion items
 
 
   -- Usefull plagins

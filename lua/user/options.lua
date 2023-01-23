@@ -6,6 +6,7 @@ local options = {
   fileencoding = "utf-8",                  -- the encoding written to a file
   ignorecase = true,                       -- ignore case in search patterns
   mouse = "a",                             -- allow the mouse to be used in neovim
+  relativenumber = true,
 
   showmode = false,                        -- we don't need to see things like -- INSERT -- anymore
   showtabline = 2,                         -- always show tabs
