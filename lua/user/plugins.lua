@@ -42,6 +42,7 @@ return packer.startup(function(use)
   use {'nvim-telescope/telescope-fzf-native.nvim', run = 'make'} 
   use("nvim-treesitter/nvim-treesitter-textobjects")
   use("ray-x/cmp-treesitter")
+  use 'luk400/vim-jukit'
 
   use "neovim/nvim-lspconfig" -- LSP configurator
   use "williamboman/nvim-lsp-installer"

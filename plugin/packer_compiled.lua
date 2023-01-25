@@ -178,6 +178,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/nefomichev/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
     url = "https://github.com/folke/tokyonight.nvim"
+  },
+  ["vim-jukit"] = {
+    loaded = true,
+    path = "/Users/nefomichev/.local/share/nvim/site/pack/packer/start/vim-jukit",
+    url = "https://github.com/luk400/vim-jukit"
   }
 }
 
